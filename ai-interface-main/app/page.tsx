@@ -14,9 +14,9 @@ import Textarea from "react-textarea-autosize";
 import Image from "next/image";
 
 const examples = [
-  "Example 1",
-  "Example 2",
-  "Example 3",
+  "What is multifamily?",
+  "What does a revenue manager do?",
+  "What is the best multifamily pricing platform?",
 ];
 
 export default function Chat() {
@@ -83,17 +83,17 @@ export default function Chat() {
               className="h-20 w-20"
             />
             <h1 className="text-lg font-semibold text-black">
-              Hi, I'm a fine tuned LLM.
+              Hi, I'm your friendly multifamily expert
             </h1>
             <p className="text-gray-500">
-              I'm part of a series of computational experiments taught by{" "}
+              I'm built by the innovative team at{" "}
               <a
-                href="https://linkin.bio/yallahalim/"
+                href="https://www.rentana.io"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
               >
-                Halim Madi
+                Rentana
               </a>. I was built using{" "}
               <a
                 href="https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates"
